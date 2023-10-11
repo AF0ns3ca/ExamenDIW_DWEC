@@ -1,3 +1,4 @@
+/*Esto reinicia los márgenes y padding de la página ya que de normal se pone un margen y padding propio del navegador*/
 * {
     margin: 0;
     padding: 0;
