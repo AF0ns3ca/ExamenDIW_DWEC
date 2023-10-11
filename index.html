@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Ejercicio Examen Rectángulo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title">
+            <h1>Calculadora de área, perímetro y diagonal de Rectángulo</h1>
+        </div>
+        <div class="data">
+          <div>
+            <label for="base">Longitud: </label>
+            <!--Con el atributo placeholder lo que hacemos es poner un texto previo, sombreado, a la introduccion de los datos-->
+            <input type="number" name="base" id="base" placeholder="Ingrese la longitud"/>
+          </div>
+          <div>
+            <label for="altura"> Ancho: </label>
+            <input type="number" name="altura" id="altura" placeholder="Ingrese el ancho"/>
+          </div>
+          <button type="button" class="btn-calcula" id="calcula">Calcular</button>
+          
+          <div class="result" id="result">
+            <!--En el interior de este div se añadirán los spans correspondientes a la funcionalidad de la página, es decir los que hayamos definido en el js-->
+          </div>
+        </div>
+        <script src="js/script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
+
