@@ -1,3 +1,7 @@
+/**
+ * @author Álvaro Fonseca Hernandez
+ * @GitHub
+ */
 
 document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("calcula");
