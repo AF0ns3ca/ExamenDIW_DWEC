@@ -1,6 +1,6 @@
 /**
  * @author Álvaro Fonseca Hernandez
- * @GitHub
+ * @GitHub https://github.com/AF0ns3ca/ExamenDIW_DWEC.git
  */
 
 document.addEventListener("DOMContentLoaded", function () {
