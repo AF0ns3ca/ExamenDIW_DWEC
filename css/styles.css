@@ -60,12 +60,7 @@
       background-color: #007BFF;
       color: white;
       border: 0;
-      /*No se pide en el enunciado pero ueda bien que un boton tenga algun tipo de respuesta cuando se le pasa por encima con el cursor, esto lo conseguimos aplicando este Hover*/
-      cursor: pointer;
-      transition: 0.3s;
-      &:hover{
-        background-color: #2d91fd;
-      }
+      
   
   }
   
